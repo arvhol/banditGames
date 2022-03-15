@@ -12,3 +12,8 @@ file filename		    # what kind of file is this
 ssh -p portnum usr@hostname.org "cat ~/filename"      # will run cat filename in homedirectory after sshing
 
 ./    # execute an executeable file
+
+tmux new -s mySess                # open a new session in same window
+Ctrl-b then d                     # detach session
+tmux attach-session -t mySess     # reattach to mySess
+exit                              # terminate
