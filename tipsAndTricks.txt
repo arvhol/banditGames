@@ -1,0 +1,14 @@
+Filename '-' cant be opened using "cat -". To open use "cat ./-" or "cat < -".
+
+find . -size 1033c    # find all files of size 1033 bytes
+find / -user usrname -group grpname    # find all files owned by usrname and grpname in the entire system
+
+sort file.txt | uniq -u      # find the unique line in a file
+
+xxd -r filename		    # reverse hexdump
+
+file filename		    # what kind of file is this
+
+ssh -p portnum usr@hostname.org "cat ~/filename"      # will run cat filename in homedirectory after sshing
+
+./    # execute an executeable file
