@@ -1,2 +1,2 @@
 # banditGames
-Stuff I have collected/written when playing the bandit wargames at overthewire.org
+Notes and stuff from playing the bandit wargames at overthewire.org
